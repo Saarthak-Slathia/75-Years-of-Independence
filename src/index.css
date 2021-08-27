@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+  line-height: 1.4 !important;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+body.dark{
+  background: #170055;
+}
+
+body.dark .title-font{
+  color: white;
+}
+
+body.dark .para{
+  color: #bbb;
+}
+
+body.dark .mr-5{
+  color: #ccc;
+}
+
+body.dark .leading-relaxed{
+  color: #aaa; 
+}
+
+body.dark .mr-5:hover{
+  color: orange;
+}
+
+.logo{
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.1));
+}
